@@ -17,4 +17,6 @@ Git上传要求为：
 * chore: 构建过程或辅助工具的变动
 * revert: 撤销以前的 commit
 
+## 目录
+[vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
 
