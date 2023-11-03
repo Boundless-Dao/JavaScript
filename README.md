@@ -8,13 +8,13 @@
 * 代码必须有注释
 
 Git上传要求为：
-*feat: 新功能
-*fix: 修补 bug
-*docs: 文档
-*style: 格式
-*refactory: 重构
-*test: 增加测试
-*chore: 构建过程或辅助工具的变动
-*revert: 撤销以前的 commit
+* feat: 新功能
+* fix: 修补 bug
+* docs: 文档
+* style: 格式
+* refactory: 重构
+* test: 增加测试
+* chore: 构建过程或辅助工具的变动
+* revert: 撤销以前的 commit
 
 
