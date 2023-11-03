@@ -1,0 +1,70 @@
+{
+  //自动保存
+  "files.autoSave": "afterDelay",
+  //图标icon
+  "workbench.iconTheme": "vscode-icons",
+  //要在保存时运行的代码操作种类。
+  "editor.codeActionsOnSave": {},
+  //公用翻译文件的目录（相对于项目根目录）
+  "vue-i18n.i18nCommonPath": "C:\\Users\\正义\\Desktop\\Code\\yyhw\\src\\i18n",
+  "vue-i18n.i18nPaths": "C:\\Users\\正义\\Desktop\\Code\\yyhw\\src\\i18n",
+  //VUE格式化程序配置
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //JSON格式化程序配置
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //HTML格式化程序配置
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //SCSS格式化程序配置
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //TS格式化程序配置
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //JS格式化程序配置
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //会把多行的HTML元素的 > 放在最后一个属性的末尾，而不是另起一行
+  "prettier.bracketSameLine": true,
+  //主题
+  "workbench.colorTheme": "Bluloco Light Italic",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#660099", //底部栏背景色
+    "statusBar.foreground": "#ffffff", //底部栏前景色
+    "statusBar.border": "#660099", //底部栏边框色
+    "toolbar.hoverBackground": "#ff3300" //工具栏背景，当鼠标悬停在动作使用鼠标
+  },
+  "editor.tokenColorCustomizations": {
+    // "comments": "#666666",//注释的颜色
+  },
+  //更改为线条
+  "indentRainbow.indicatorStyle": "light",
+  // 线条宽度
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  // 线条颜色
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  //前后标签同时改
+  "editor.linkedEditing": true,
+  //显示上下{}对应
+  "editor.guides.bracketPairs": true,
+  //禁用空格缩进红色错误（部分第二次打开就没了）
+  "indentRainbow.ignoreErrorLanguages": ["haskell"],
+  //控制资源管理器是否应在通过回收站删除文件时要求确认。
+  "explorer.confirmDelete": false
+}
