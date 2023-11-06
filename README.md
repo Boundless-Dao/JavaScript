@@ -19,4 +19,5 @@ Git上传要求为：
 ## 目录
 * [vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
 * [IM消息时间处理](https://github.com/ChangZhengYi/JavaScript/blob/main/updateTime)
+* [vite配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vite)
 
