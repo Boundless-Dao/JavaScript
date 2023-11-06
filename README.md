@@ -1,7 +1,6 @@
 # JavaScript #
 
-本项目目的在于上传一些经过验证的js代码，方便以后使用。
-项目代码由各成员维护
+本项目目的在于上传一些经过验证的JS代码，方便以后使用。（项目代码由各成员维护）
 
 上传要求为：
 * 代码必须经过验证，保证其正确性
@@ -19,4 +18,5 @@ Git上传要求为：
 
 ## 目录
 [vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
+[IM消息时间处理](https://github.com/ChangZhengYi/JavaScript/blob/main/updateTime)
 
