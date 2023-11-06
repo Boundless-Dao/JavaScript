@@ -9,7 +9,10 @@ import path from "path"; //path 路径
 import { createSvgIconsPlugin } from "vite-plugin-svg-icons"; //vite关于svg的处理插件
 import AutoImport from "unplugin-auto-import/vite"; //vite自动导入插件
 import Components from "unplugin-vue-components/vite"; //vite自动导入插件
-import { ElementPlusResolver } from "unplugin-vue-components/resolvers"; //ElementPlu自动按需导入
+import {
+  ElementPlusResolver,
+  VantResolver,
+} from "unplugin-vue-components/resolvers"; //ElementPlu,Vant自动按需导入
 import viteCompression from "vite-plugin-compression"; //vite打包插件
 import viteImagemin from "vite-plugin-imagemin"; //图片压缩
 //国内用户安装需要在电脑host文件（C：\Windows\System32\drivers\etc）上加下以下配置：
@@ -33,7 +36,7 @@ export default defineConfig({
   plugins: [
     vue(), //vue
     Components({
-      resolvers: [ElementPlusResolver()], //ElementPlu自动按需导入
+      resolvers: [ElementPlusResolver(), VantResolver()], //ElementPlu,Vant自动按需导入
       dts: true, // 会在根目录生成auto-imports.d.ts，里面可以看到自动导入的api
     }),
     AutoImport({
