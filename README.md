@@ -17,6 +17,6 @@ Git上传要求为：
 * revert: 撤销以前的 commit
 
 ## 目录
-[vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
-[IM消息时间处理](https://github.com/ChangZhengYi/JavaScript/blob/main/updateTime)
+* [vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
+* [IM消息时间处理](https://github.com/ChangZhengYi/JavaScript/blob/main/updateTime)
 
