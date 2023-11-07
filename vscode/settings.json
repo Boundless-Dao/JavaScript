@@ -21,7 +21,9 @@
   },
   //HTML格式化程序配置
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
+    //禁止Pretter为void元素提供闭合
+    //具体原因查看https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-unquoted-attribute-values
   },
   //SCSS格式化程序配置
   "[scss]": {
@@ -66,5 +68,7 @@
   //禁用空格缩进红色错误（部分第二次打开就没了）
   "indentRainbow.ignoreErrorLanguages": ["haskell"],
   //控制资源管理器是否应在通过回收站删除文件时要求确认。
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  //不接受Codegeex
+  "Codegeex.Privacy": false
 }
