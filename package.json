@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "本项目目的在于上传一些经过验证的JS代码，方便以后使用。（项目代码由各成员维护）",
   "license": "ISC",
+  "scripts": {
+    "module:install": "pnpm i",
+    "module:reinstall": "rimraf node_modules&&npm run module:install"
+  },
   "devDependencies": {
     "cz-git": "^1.7.1"
   },
