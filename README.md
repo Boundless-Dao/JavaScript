@@ -6,7 +6,23 @@
 * 代码必须经过验证，保证其正确性
 * 代码必须有注释
 
-Git上传要求为：
+Git相关：
+1.全局安装 commitizen,如此一来可以快速使用 cz 或 git cz 命令进行启动。
+
+```
+npm install -g commitizen
+```
+
+流程：
+
+```
+git add .
+git cz  
+git push
+```
+
+
+
 * feat: 新功能
 * fix: 修补 bug
 * docs: 文档
