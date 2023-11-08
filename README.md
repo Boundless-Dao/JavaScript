@@ -6,7 +6,7 @@
 * 代码必须经过验证，保证其正确性
 * 代码必须有注释
 
-Git上传要求为：
+Git上传要求为：提交message遵循git hooks提交格式，采用如下方式：
 * feat: 新功能
 * fix: 修补 bug
 * docs: 文档
