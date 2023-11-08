@@ -3,12 +3,5 @@
   "version": "1.0.0",
   "description": "本项目目的在于上传一些经过验证的JS代码，方便以后使用。（项目代码由各成员维护）",
   "license": "ISC",
-  "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "husky": "^8.0.3"
-  },
-  "gitHooks": {
-    "commit-msg": "node build/verify-commit-msg.js"
-  }
+  "devDependencies": {}
 }
