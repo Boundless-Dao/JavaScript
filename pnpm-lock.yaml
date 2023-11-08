@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  cz-git:
+    specifier: ^1.7.1
+    version: registry.npmmirror.com/cz-git@1.7.1
+
+packages:
+
+  registry.npmmirror.com/cz-git@1.7.1:
+    resolution: {integrity: sha512-NMe4REukCS7op1YA1jixRXOgII8Um2/Ii8TeyFEOISgp2ZzeobzkMOP8dXSrTQ3bvmm7YpPOdr2301yJkOJcbA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cz-git/-/cz-git-1.7.1.tgz}
+    name: cz-git
+    version: 1.7.1
+    engines: {node: '>=v12.20.0'}
+    dev: true

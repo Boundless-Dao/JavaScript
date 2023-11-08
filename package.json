@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "description": "本项目目的在于上传一些经过验证的JS代码，方便以后使用。（项目代码由各成员维护）",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "cz-git": "^1.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
 }
