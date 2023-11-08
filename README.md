@@ -20,4 +20,8 @@ Git上传要求为：
 * [vscode自用插件与配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vscode)
 * [IM消息时间处理](https://github.com/ChangZhengYi/JavaScript/blob/main/updateTime)
 * [vite配置](https://github.com/ChangZhengYi/JavaScript/tree/main/vite)
+* [validate](https://github.com/ChangZhengYi/JavaScript/tree/main/validate)
+
+## book 目录
+* [HTML与CSS入门经典第7版美奥利弗美莫里森扫描版](https://github.com/ChangZhengYi/JavaScript/tree/main/books)
 

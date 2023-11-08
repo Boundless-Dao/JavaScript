@@ -4,7 +4,7 @@
  * yStr:日期拼接格式，默认'/'拼接
  * isHours:是否显示时分，默认不显示
  */
-const upDateTimeShow = (time, yStr = "/", isHours = false) => {
+export const upDateTimeShow = (time, yStr = "/", isHours = false) => {
   time = time.replace(/-/g, "/");
   const JUST_NOW = 3000; //3s内
   const IN_SECOND = 1000 * 60; //一分钟
@@ -82,7 +82,7 @@ const upDateTimeShow = (time, yStr = "/", isHours = false) => {
 /**
  * 月份转化
  */
-const getNumberMonth = (month) => {
+export const getNumberMonth = (month) => {
   switch (month) {
     case "Jan":
       return "01";
@@ -115,16 +115,10 @@ const getNumberMonth = (month) => {
  *  因为1970年1月1 是周4   所以（天数+4）/7 取整 就是周数  如果相同就是同一周反之就不是
 经过测试,是以星期一作为每周的第一天的
  */
-const isSameWeek = (now) => {
+export const isSameWeek = (now) => {
   let oneDayTime = 1000 * 60 * 60 * 24,
     old_count = parseInt(new Date().getTime() / oneDayTime),
     now_other = parseInt(new Date(now).getTime() / oneDayTime);
   // console.log('old周', old_count, 'now周', now_other)
   return parseInt((old_count + 4) / 7) == parseInt((now_other + 4) / 7);
-};
-
-module.exports = {
-  upDateTimeShow,
-  getNumberMonth,
-  isSameWeek,
 };
