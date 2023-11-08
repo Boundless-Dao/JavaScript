@@ -9,6 +9,6 @@
     "husky": "^8.0.3"
   },
   "gitHooks": {
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "commit-msg": "node build/verify-commit-msg.js"
   }
 }
